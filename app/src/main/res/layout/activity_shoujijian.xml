@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="murmur.transmission.shoujijian">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_centerVertical="true"
+
+        >
+        <TableRow>
+<Button
+    android:id="@+id/kuaidi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:text="快递员上门"
+    android:textSize="40dp"
+    android:textColor="#ffffff"
+    />
+        </TableRow>
+        <TableRow>
+    <Button
+        android:id="@+id/zitigui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="自提柜"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/kuaidi"
+        />
+        </TableRow>
+        <TableRow>
+    <Button
+        android:id="@+id/yizhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="驿站寄件"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/zitigui"
+
+        />
+        </TableRow>
+        <TableRow>
+    <Button
+        android:id="@+id/tongcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="同城直送"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/yizhan"
+        />
+        </TableRow>
+        <TableRow>
+    <Button
+        android:id="@+id/jingji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="禁寄物品"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tongcheng"
+        />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

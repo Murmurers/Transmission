@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="murmur.transmission.yizhan">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="90dp"
+    >
+    <TableRow>
+        <Button
+            android:id="@+id/jiage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="价格查询"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/shixiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="时效查询"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/fujin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="附近驿站"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            />
+    </TableRow>
+
+
+</TableLayout>
+</RelativeLayout>
